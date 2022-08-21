@@ -1,2 +1,2 @@
 print("my name ")
-s="mahesh"
+s="maheshg"
