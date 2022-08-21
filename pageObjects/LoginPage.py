@@ -1,3 +1,4 @@
+import self as self
 from selenium.webdriver.common.by import By
 
 
@@ -15,7 +16,7 @@ class LoginPage:
         self.driver.find_element(By.ID, self.textbox_username_id).clear()
         self.driver.find_element(By.ID, self.textbox_username_id).send_keys(username)
 
-    def setPassword(self, password):
+    def setPassword(self, password):                                                                                                                                                       ssword):
         self.driver.find_element(By.ID, self.textbox_password_id).clear()
         self.driver.find_element(By.ID, self.textbox_password_id).send_keys(password)
 
